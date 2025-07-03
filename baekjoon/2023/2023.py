@@ -18,6 +18,7 @@ def DFS(num):
             new_num = str(num) + str(i)
             DFS(new_num)
 
+DFS(1)
 DFS(2)
 DFS(3)
 DFS(5)
